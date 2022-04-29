@@ -62,6 +62,7 @@ Anyway, I learned to remember to link the generated CSS file to the html file or
 
 This was also a great little practice project of building up a quick component. I was quickly able to get this looking like the figma file especially since there is no functionality and didnt even need JS.
 
+UPDATE: I deployed this with github pages which I have not done in a LONG time so it was basically my first time again. lol. I learned how to deploy a lil simple project to github pages.
 
 ## Author
 
