@@ -1,0 +1,25 @@
+.card-container {
+  width: $max-width;
+  background-color: $white;
+  padding: 1em;
+}
+
+// card-top
+img {
+  width: 100%;
+}
+
+.card-container, img {
+  @include border-radius();
+}
+
+// card-bottom
+h1 {
+  color: $dark-blue;
+  
+}
+
+p {
+  color: $grayish-blue;
+  
+}

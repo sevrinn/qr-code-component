@@ -1,4 +1,26 @@
 /* file import */
+.card-container {
+  width: 373px;
+  background-color: white;
+  padding: 1em;
+}
+
+img {
+  width: 100%;
+}
+
+.card-container, img {
+  border-radius: 1em;
+}
+
+h1 {
+  color: #1f3251;
+}
+
+p {
+  color: #7b879d;
+}
+
 body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12,6 +34,7 @@ body {
   font-family: "Outfit", sans-serif;
   height: 100vh;
   text-align: center;
+  background-color: #d6e2f0;
 }
 
 .attribution {
