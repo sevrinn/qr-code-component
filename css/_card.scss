@@ -1,25 +1,30 @@
 .card-container {
   width: $max-width;
   background-color: $white;
-  padding: 1em;
+  padding: 1.2em;
+  border-radius: 20px;
+  box-shadow: 15px 15px 20px 10px hsla(0, 0%, 59%, 0.05);
 }
 
 // card-top
 img {
   width: 100%;
-}
-
-.card-container, img {
-  @include border-radius();
+  border-radius: 10px;
 }
 
 // card-bottom
+.card-bottom {
+  padding: 0 1.8em;
+}
 h1 {
   color: $dark-blue;
-  
+  font-size: 1.5rem;
+  font-weight: $bold;
 }
 
 p {
   color: $grayish-blue;
-  
+  margin: 1.5rem;
+  font-size: $font-size;
+  font-weight: $weight;
 }

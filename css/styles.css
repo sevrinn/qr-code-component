@@ -2,23 +2,32 @@
 .card-container {
   width: 373px;
   background-color: white;
-  padding: 1em;
+  padding: 1.2em;
+  border-radius: 20px;
+  -webkit-box-shadow: 15px 15px 20px 10px rgba(150, 150, 150, 0.05);
+          box-shadow: 15px 15px 20px 10px rgba(150, 150, 150, 0.05);
 }
 
 img {
   width: 100%;
+  border-radius: 10px;
 }
 
-.card-container, img {
-  border-radius: 1em;
+.card-bottom {
+  padding: 0 1.8em;
 }
 
 h1 {
   color: #1f3251;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
 p {
   color: #7b879d;
+  margin: 1.5rem;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 body {
