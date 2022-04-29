@@ -1,0 +1,15 @@
+/* file import */
+@import 'variables';
+@import 'mixins';
+@import 'card';
+
+body {
+  @include flex-center();
+  font-family: $family;
+  height: 100vh;
+  text-align: center;
+}
+
+.attribution {
+  display: none;
+}
